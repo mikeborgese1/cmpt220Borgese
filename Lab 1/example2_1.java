@@ -7,7 +7,7 @@ public class example2_1 {
 		Scanner keyboard  = new Scanner(System.in);
 		System.out.println("Enter a temperature in Celcius:");
 		double cel= keyboard.nextDouble();
-		double far = cel *(9/5) +12;
+		double far = cel *(9.0/5) +32; // JA
 		System.out.println(cel + " degrees in Celcius is "+ far +" in Farenheit.");
 	}
 
