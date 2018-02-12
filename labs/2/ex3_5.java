@@ -25,6 +25,8 @@ public class ex3_5 {
                 break;
 		}
 
+	// JA: The future day is added to the present day. You shoudl calculate it by 
+	// using the % operator (futureDay = (day1 + ahead) % 7)
     if (ahead == 0){
         System.out.printf("Todays is"+day1+" and the future day is Sunday");
     }else if(ahead == 1){

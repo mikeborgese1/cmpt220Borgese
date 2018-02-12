@@ -24,7 +24,7 @@ public class ex4_21 {
 			System.out.println(ssn+ " is a valid social security number");
 		}
 		else {
-			System.out.println(ssn+ " is a valid social security number");
+			System.out.println(ssn+ " is a not valid social security number"); // JA
 		}
 		
 }

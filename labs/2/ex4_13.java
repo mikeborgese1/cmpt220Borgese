@@ -6,8 +6,8 @@ public class ex4_13 {
 		// TODO Auto-generated method stub
 		Scanner keyboard  = new Scanner(System.in);
 		System.out.println("Enter a letter: ");
-	Long letter = keyboard.nextLong();
-		letter.toString();
+		char letter = keyboard.next().charAt(0); // JA
+		//letter.toString();
 	
 		
 		if(letter=='a'||letter=='e'||letter=='i'||letter=='o'||letter=='u'||letter=='A'||letter=='E'||letter=='I'||letter=='O'||letter=='U'){
