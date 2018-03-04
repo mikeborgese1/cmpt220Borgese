@@ -1,3 +1,4 @@
+import java.util.Scanner; //JA
 
 public class ex9_11 {
 

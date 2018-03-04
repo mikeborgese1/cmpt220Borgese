@@ -3,7 +3,7 @@ public class ex9_7 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		  Account account = new Account(1122, 20000);
+		  Account account = new Account(1122, 20000); // JA: Where is your Account class defined?
 	        account.setAnnualInterestRate(4.5);
 
 	        System.out.println("Account ID: " + account.getId());

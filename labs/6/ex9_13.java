@@ -21,6 +21,7 @@ public class ex9_13 {
 
         System.out.println("The location of the largest element is "
                 + location.maxValue + " at (" + location.row + ", " + location.column + ")");
+		// JA: These are called r, c, max in your class
 	}
 
 }
