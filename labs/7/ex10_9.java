@@ -1,4 +1,4 @@
-
+// JA: Where is the course class defined?
 public class ex10_9 {
 	  public static void main(String[] args) {
 	        course course = new course("Intro to Java :)");

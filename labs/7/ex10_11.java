@@ -1,3 +1,4 @@
+// JA: Where is the Circle2D class defined?
 public class ex10_11 {
 	  public static void main(String[] args) {
 
