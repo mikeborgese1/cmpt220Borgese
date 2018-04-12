@@ -1,3 +1,4 @@
+// JA: Where is the IllegalTriangleException class defined?
 import java.util.Scanner;
 public class ex11_1 {
 

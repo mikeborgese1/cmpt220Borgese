@@ -1,4 +1,4 @@
-
+// JA: Where is ChekingAccount and SavingsAccount classes defined?
 
 	
 public class ex11_3 {

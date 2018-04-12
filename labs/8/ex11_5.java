@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-
+// JA: No test class?
 public class ex11_5 {
    
 }
