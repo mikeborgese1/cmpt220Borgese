@@ -11,7 +11,8 @@ public class ex13_11 {
 	    }
 	}
 
-public class Octagon extends GeometricObject implements Cloneable {
+// JA: This class should implement Comparable
+class Octagon extends GeometricObject implements Cloneable {
 
     // all 8 sides of the octagon have equal length
     double side;

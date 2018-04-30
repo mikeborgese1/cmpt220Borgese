@@ -1,22 +1,24 @@
 
 public class ex137 {
-	    GeometricObject[] geoShapes = new GeometricObject[5];
-	    geoShapes[0] = new MyRectangle2D();
-	    geoShapes[1] = new Circle2D();
-	    geoShapes[2] = new Square();
-	    geoShapes[3] = new MyRectangle2D(0, 0, 10, 5);
-	    geoShapes[4] = new Square(0,0,25);
+	// JA: Where is the main method?
+	GeometricObject[] geoShapes = new GeometricObject[5];
+	geoShapes[0] = new MyRectangle2D();
+	geoShapes[1] = new Circle2D();
+	geoShapes[2] = new Square();
+	geoShapes[3] = new MyRectangle2D(0, 0, 10, 5);
+	geoShapes[4] = new Square(0,0,25);
 
-	    for (int i = 0; i < geoShapes.length; i++) {
+	for (int i = 0; i < geoShapes.length; i++) {
 
-	        System.out.println("shape #" + (i + 1) + " area = " + geoShapes[i].getArea());
-	        if (geoShapes[i] instanceof Colorable) {
-	            System.out.println("How to color: "+((Colorable)geoShapes[i]).howToColor());
-	        }
-	    }
-
+		System.out.println("shape #" + (i + 1) + " area = " + geoShapes[i].getArea());
+		if (geoShapes[i] instanceof Colorable) {
+			System.out.println("How to color: "+((Colorable)geoShapes[i]).howToColor());
+		}
 	}
-public class Square extends GeometricObject implements Colorable {
+
+}
+
+class Square extends GeometricObject implements Colorable {
 
 	private double x;
 	private double y;
@@ -70,12 +72,10 @@ public class Square extends GeometricObject implements Colorable {
 	public void setSide(double side) {
 	    this.side = side;
 	}
-	}
+}
 
-	interface Colorable {
-
+interface Colorable {
 	String howToColor();
-	}
-	}
+}
 
 

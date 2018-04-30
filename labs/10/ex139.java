@@ -1,6 +1,6 @@
 
 public class ex139 {
-	
+	// JA: Where is the main method?
 		 Circle c1 = new Circle(8);
 	     Circle c2 = new Circle(8);
 	     MyRectangle2D r1 = new MyRectangle2D(0, 0, 4, 4);
